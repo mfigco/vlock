@@ -1,0 +1,25 @@
+.wrapper{
+	display: grid;
+	width: 100%;
+	height: auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: 12vh 5vh 1fr 10vh 4vh;
+}
+
+header{
+	grid-area:  1 / 1;
+}
+
+.gallery{
+	grid-area:  3 / 1;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin: 0 7vw;
+}
+
+.gallery > div{
+	grid-template-rows: 26.3vw 2.4rem 5rem;
+}
+
+.gallery-controls{
+	grid-area:  4 / 1;
+}
